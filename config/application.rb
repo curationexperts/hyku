@@ -6,7 +6,7 @@ require 'i18n/debug' if ENV['I18N_DEBUG']
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-Dotenv Railties.load
+Dotenv::Railtie.load
 module Hyku
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
