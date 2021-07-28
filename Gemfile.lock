@@ -274,6 +274,7 @@ GEM
     diff-lcs (1.4.4)
     docile (1.4.0)
     docopt (0.5.0)
+    dotenv (2.7.6)
     draper (4.0.2)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -1059,6 +1060,7 @@ DEPENDENCIES
   devise-guests (~> 0.3)
   devise-i18n
   devise_invitable (~> 1.6)
+  dotenv
   factory_bot_rails
   fcrepo_wrapper (~> 0.4)
   flipflop (~> 2.3)
