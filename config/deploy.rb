@@ -23,7 +23,7 @@ set :deploy_to, "/opt/hyku"
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/master.key"
+append :linked_files, "config/master.key", ".env.#{fetch :stage}"
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"

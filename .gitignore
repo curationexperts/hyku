@@ -47,3 +47,6 @@ config/environments/*.local.yml
 # Avatars and such
 public/uploads
 .env.*
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
