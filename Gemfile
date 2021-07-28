@@ -35,6 +35,7 @@ gem 'active-fedora', '>= 11.1.4'
 gem 'flutie'
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
+gem 'capistrano-passenger', group: :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
